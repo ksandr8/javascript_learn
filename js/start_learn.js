@@ -46,3 +46,23 @@ objct['second'] = 478; // другий метод додавання нової 
 console.log(objct.first); // метод вивода строки
 console.log(objct['first']); // другий метод вивода строки
 
+
+// Спілкування з користувачем
+
+// alert("Hello"); //модальне вікно
+// const result = confirm("Are yuo here?"); //модальне вікно
+// console.log(result); 
+// const answer = prompt("Вам є 18?", ""); //модальне вікно з відповіддю текстом
+// console.log(answer); 
+
+// const answers = [];
+// answers[0]=prompt("Ваше ім'я","");
+// answers[1]=+prompt("Ваш вік","");
+// answers[2]=prompt("Ваша стать","");
+// console.log(answers);
+// document.write(answers);
+
+//Інтерполяція
+
+const category = 'toys';
+console.log(`https://someurl.com/${category}`);

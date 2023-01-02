@@ -66,3 +66,15 @@ console.log(objct['first']); // другий метод вивода строк�
 
 const category = 'toys';
 console.log(`https://someurl.com/${category}`);
+
+//Оператори в JS
+
+let incr = 10,
+    decr = 10;
+incr++; // інкремент добавляє 1
+decr--; // декремент мінусує 1
+console.log(incr);
+console.log(decr);
+
+
+
